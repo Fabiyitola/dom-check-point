@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.cart {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.like-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+}
+
+.like-item.active {
+    color: red;
+}
+
+.quantity button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.total-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
